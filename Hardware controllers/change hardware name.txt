@@ -1,0 +1,12 @@
+Go to control panel.
+Open 'Devices and Printers'.
+Find your controller , right click ~ properties.
+Go to tab 'Hardware' , and open properties on HID-compliant...
+Go to tab 'Details' and select on 'Property' ~ Hardware Ids.
+Remember your value , VID_045E&PID_02A1 " Every controller has different value. "
+Go to start , and open regedit.exe.
+Go to :
+A. HKEY_CURRENT_USER\System\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_045E&PID_02A1
+B. HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\MediaProperties\PrivateProperties\Joystick\OEM\VID_045E&PID_02A1
+Change OEM Name to your preferences.
+Done!
