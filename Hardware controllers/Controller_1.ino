@@ -10,10 +10,10 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_GAMEPAD,
 
 void setup() {
   // Initialize Button Pins
-  pinMode(6, INPUT_PULLUP); 
+  pinMode(5, INPUT_PULLUP); 
   pinMode(7, INPUT_PULLUP);
   pinMode(10, INPUT_PULLUP);
-  pinMode(16, INPUT_PULLUP);
+  pinMode(14, INPUT_PULLUP);
 
   // Initialize Joystick Library
   Joystick.begin();
